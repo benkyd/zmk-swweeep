@@ -65,10 +65,10 @@
 
         raise {
             bindings = <
-     &kp GB_N1  &kp GB_N2     &kp GB_N3     &kp GB_N4   &kp GB_N5           &kp GB_N6     &kp GB_N7      &kp GB_N8  &kp GB_N9       &kp GB_N0
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &bt BT_PRV          &bt BT_NXT  &kp LEFT_GUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT
-        &kp F1     &kp F2        &kp F3        &kp F4      &kp F5              &kp F6        &kp F7         &kp F8     &kp F9         &kp F10
-                                            &kp LG(D)     &kp F11  &trans      &trans       &kp F12  &kp LG(ENTER)
+     &kp GB_N1  &kp GB_N2     &kp GB_N3     &kp GB_N4   &kp GB_N5               &kp GB_N6     &kp GB_N7      &kp GB_N8  &kp GB_N9       &kp GB_N0
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &bt BT_PRV              &bt BT_NXT  &kp LEFT_GUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT
+        &kp F1     &kp F2        &kp F3        &kp F4      &kp F5                  &kp F6        &kp F7         &kp F8     &kp F9         &kp F10
+                                            &kp LG(D)     &kp F11  &bt BT_CLR      &trans       &kp F12  &kp LG(ENTER)
             >;
 
             label = "Navigation";
