@@ -50,8 +50,8 @@
 
             flavor = "hold-preferred";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
         };
     };
 
@@ -95,7 +95,7 @@
 &kp LG(N1)    &kp LG(N2)    &kp LG(N3)  &kp LG(N4)     &kp LG(N5)                   &kp LG(N6)     &kp LG(N7)   &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
 &kp K_PREV  &kp C_VOL_UP  &kp C_VOL_UP  &kp K_NEXT  &kp C_BRI_INC                     &kp LEFT       &kp DOWN       &kp UP   &kp RIGHT   &kp ENTER
  &kp LC(Z)     &kp LC(X)     &kp LC(C)   &kp LC(V)  &kp C_BRI_DEC                     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP     &kp END      &trans
-                                            &trans     &kp INSERT  &kp PRINTSCREEN  &bt BT_CLR        &kp DEL       &trans
+                                            &trans     &kp INSERT  &kp PRINTSCREEN  &bt BT_CLR        &kp DEL   &bt BT_CLR
             >;
         };
     };
