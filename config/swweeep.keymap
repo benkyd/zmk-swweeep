@@ -36,6 +36,26 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
         };
+
+        combo_cc {
+            bindings = <&kp LC(C)>;
+            key-positions = <21 22>;
+        };
+
+        combo_bb {
+            bindings = <&kp LC(B)>;
+            key-positions = <23 24>;
+        };
+
+        combo_ww {
+            bindings = <&kp LC(W)>;
+            key-positions = <1 2>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
     };
 };
 
