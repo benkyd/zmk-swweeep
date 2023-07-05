@@ -103,8 +103,8 @@
             label = "Symbols";
             bindings = <
             &kp EXCL      &kp LS(N2)  &kp GB_POUND_SIGN      &kp DLLR    &kp PRCNT          &kp CARET        &kp AMPS      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-            &kp PIPE  &kp UNDERSCORE          &kp MINUS      &kp PLUS    &kp EQUAL          &kp COLON  &kp LEFT_BRACE       &kp RBRC      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp NON_US_BACKSLASH          &trans        &kp AT_SIGN       &kp SQT    &kp GRAVE          &kp TILDE        &kp HASH  &kp LESS_THAN      &kp GREATER_THAN           &kp QUESTION
+            &kp GB_PIPE  &kp UNDERSCORE          &kp MINUS      &kp PLUS    &kp EQUAL          &kp COLON  &kp LEFT_BRACE       &kp RBRC      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp NON_US_BACKSLASH          &kp GB_EURO        &kp GB_AT       &kp SQT    &kp GRAVE          &kp GB_TILDE        &kp GB_POUND  &kp LESS_THAN      &kp GREATER_THAN           &kp QUESTION
                                                          &out OUT_TOG  &bootloader  &trans     &trans     &bootloader      &kp LCTRL
             >;
         };
